@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+    font-family:"Roboto black";
+    
+}
+
+#All{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+   
+
+}
+
+#fundovideo{
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.TextoButon{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.TextoButon:hover{
+    color: white;
+}
+
+#login{
+    background-color: rgba(24, 1, 24, 0.884);
+    width: 400px;
+    position: relative;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    opacity: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 50px ;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.247);
+    
+    transition: 1s;   
+}
+
+
+h2{
+    color: white;
+}
+
+
+#login input[type="text"],#login input[type='password']{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    width: 250px;
+    background: none;
+    border:2px solid #7f08c4;
+    border-radius: 15px;
+    transition: 0.8s;
+    color: white;
+}
+
+
+#login input[type="text"]:focus,#login input[type="password"]:focus{
+    border-left:40px solid #7f08c4;
+    color: white;
+}
+
+
+.btn-group{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-group::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 500px;
+    background: #7f08c4;
+    animation: efeito 1.3s ease infinite;
+    transition: 1s ease;
+}
+
+
+@keyframes efeito {
+    100%{
+        opacity: 0;
+    }
+}
+
+
+.Entrar{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 95px;
+    background: black;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.Entrar:hover{
+    background: #4c0177;
+    width: 100px;
+    height: 40px ;
+    top: -3px;
+    color: rgb(204, 230, 255);
+
+}
+
+
+li{
+    display: inline;
+    position: relative;
+    align-items: center;
+}
+
+
+li a{
+ text-decoration: none;
+text-align: center;
+ display: block;
+ margin: 5px;
+ margin-right: 37px;
+ color: white;
+ transition: 0.3s;
+}
+
+
+li a:hover{
+    
+    color: #8901d8;
+}
+
+/* Cadastro*/
+#Form{
+    background-color: rgba(24, 1, 24, 0.884);
+    width: 400px;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 50px ;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.247);
+    margin-top: -55% ;
+    margin-left: -100%; /* 37%*/
+    transition: 1s;
+}
+
+
+#Form input[type="text"],#Form input[type='password']{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    width: 250px;
+    background: none;
+    border:2px solid #7f08c4;
+    border-radius: 15px;
+    transition: 0.8s;
+    color: white;
+}
+
+
+#Form input[type="text"]:focus,#Form input[type="password"]:focus{
+    border-left:40px solid #7f08c4;
+    color: white;
+}
+  
+
+.Cadastrar{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 95px;
+    background: black;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.Cadastrar:hover{
+    background: #4c0177;
+    width: 100px;
+    height: 40px ;
+    top: -3px;
+    color: rgb(204, 230, 255);
+
+}
+
+
+footer{
+    position: absolute;
+    text-align: center;
+    background: rgb(27, 0, 23);
+    width: 100%;
+    height: 250px;
+    margin-top: -45px;
+    color: white;
+    padding: 20px;
+    border-top: 1px solid #4c0177 ;
+}
+
+
+@media (max-width:1155px){
+    #login{
+        position: absolute;
+        align-items: center;
+        margin-top: -60px;
+        margin-left: -24px;
+        
+    }
+    #Form{
+        position: absolute;
+        margin-top: 460px;
+        margin-left: 0px;
+    }
+    #fundovideo{
+        width: 0vw ;
+        
+    }
+    footer{
+        position: absolute;
+        text-align: center;
+        
+        background: rgb(27, 0, 23);
+        width: 100%;
+        height: 250px;
+        margin-top: 1250px;
+        color: white;
+        padding: 20px;
+        border-top: 1px solid #4c0177 ; 
+    }
+   
+}
