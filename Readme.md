@@ -19,7 +19,7 @@
 <h1>Sobre</h1>
 <p> Projeto realizado como meio de aprendizado do Front-End e do Bootstrap.
 Tentei testar algumas animações e expor o máximo de criatividade possível 😜.
-<p> Caso queira, click no link e veja você mesmo: https://victorhdss6.github.io/Steck-Cars/index.html </p> </p>
+<p> Caso queira, click no link e veja você mesmo: https://victorhdss6.github.io/Steck-Cars/ </p> </p>
 <ul>
 <p> Projeto feito com as seguintes tecnologias: </p>
 <li>✅ JavaScript</li>
