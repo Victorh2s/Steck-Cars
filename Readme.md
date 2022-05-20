@@ -28,5 +28,5 @@ Tentei testar algumas animações e expor o máximo de criatividade possível �
 <li>✅ Bootstrap</li>
 </ul>
 
-Feito por @Victorhdss6 👨‍💻🔥
+Feito por @Victorh2s 👨‍💻🔥
  
